@@ -12,4 +12,6 @@ public class firsttest {
 
 		given().when().get("/V4/sinkministatement.php").then().log().all().assertThat().statusCode(200);
 }
+public void testcase()
+{}
 }
